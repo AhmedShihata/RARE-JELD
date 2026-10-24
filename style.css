@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --gamaly:rgb(221, 158, 89);
+    --gamaly2:rgba(175, 146, 117, 0.897);
+    --bigg:rgb(247, 241, 222);
+    --white:rgb(255, 255, 255);
+    --black:rgb(0, 0, 0);
+    --gold:rgb(184, 134, 55);
+    --third:rgba(52, 64, 73, 0.377);
+    --verge:rgba(89, 90, 92, 0.877);
+
+}
+nav{
+    height: 70px;
+    padding: 0 5% !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+} .link{
+    color: var(--white) !important;
+    font-size: 17px;
+    transition: all 2s;
+}
+nav .link:hover{
+    color: var(--gold);
+    scale: 1.2;
+}
+nav #logo{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Architects Daughter", cursive;
+    transition: all 2s;
+}
+nav #logo:hover{
+    color: var(--gold);
+    scale: 1.2;
+    cursor: pointer;
+}
+nav #logo span{
+   font-size: 20px;
+    font-weight: bold;
+    font-family: "Architects Daughter";
+    transition: all 2s; 
+}
+nav #logo span:hover{
+    color: var(--gold);
+    scale: 1.2;
+    cursor: pointer;
+}
+@media screen and (min-width:320px) and (max-width:499px){
+ nav #logo{
+    font-family: "Libre Baskerville", serif;
+}
+#ee{
+    background-color: var(--third) !important;
+    width: 175px;
+    padding-left: 10px;
+    color: var(--white) !important;
+}
+ nav .link{
+    font-size: 12px !important;
+    color: var(--text);
+    padding-right:10px;
+    transition: all 3s;
+}
+nav .link :hover{
+    scale: 1.2;
+} 
+}
+ @media screen and (min-width:500px) and (max-width:900px){
+        nav #logo{
+    font-family: "Libre Baskerville", serif;
+}
+#ee{
+   background-color: var(--third) !important;
+    color: var(--white) !important;
+    width: 260px;
+    padding-left: 20px;
+}
+    nav .link{
+    font-size: 15px;
+    color: var(--text);
+    padding-right:20px;
+}
+}
+ @media screen and (min-width:901px) and (max-width:1000px){
+        nav #logo{
+    font-family: "Libre Baskerville", serif;
+}
+#ee{
+   background-color: var(--third) !important;
+    color: var(--white) !important;
+    width: 260px;
+    padding-left: 20px;
+}
+     nav .link{
+    font-size: 15px;
+    color: var(--text);
+    padding-left:20px;
+}
+}
+/* section 1 */
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/WhatsApp\ Image\ 2026-06-21\ at\ 8.40.10\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 .text{
+    width: 850px;
+    /* height: 200px; */
+    text-align: center;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.sec1 .text #one{
+    color: var(--white);
+    font-size: 70px;
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 5px 5px 5px var(--black);
+}
+.sec1 .text #two{
+    /* color: var(--gold); */
+    color: rgb(184, 134, 55);
+    font-size: 40px;
+    font-family: serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 5px var(--black);
+}
+.sec1 .text #three{
+    color: var(--white);
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    padding-top: 1.5%;
+    width: 40%;
+    height: 65px;
+    border: 3px var(--gold) solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.sec1 .text #four{
+     color: var(--white);
+    font-size: 17px;
+    font-family: serif;
+    font-weight: bold;
+}
+
+/* offcanvas */
+.offcanvas{
+    background-color: var(--third) !important;
+}
+.offcanvas-title{
+    color: var(--white) !important;
+}
+/* modals */
+.modal-content {
+    background-color: var(--third) !important;
+}
+.modal-title{
+    color: var(--gamaly) ;
+}
+.modal-text{
+    color: var(--white) !important;
+    font-size: 15px;
+}
+
+/* Footer */
+.footer {
+ border-top: 1px solid rgba(121, 114, 114, 0.1);
+}
+.footer h5 {
+ letter-spacing: 0.5px;
+}
+.footer ul li {
+ transition: color 0.3s ease;
+}
+.footer ul li:hover {
+ color: #ffffff !important;
+} 
+ .cont
+.colm{
+    justify-content: space-evenly !important;
+
+}
+
+.card-img-top{
+    border-radius: 20px 0 0 0;
+}
+.header-pro{
+    padding-top: 20px;   
+}
+
+/*2.html ############################### */
+.class h2{
+    text-align: center;
+    margin-top: 10px;
+}
+#title{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.par{
+    width: 350px;
+    height: 470px;
+    border: 2px solid var(--gold) !important;
+    border-radius: 30px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img{
+    width: 100%;
+    height: 250px;
+    border-radius: 28px !important;
+}
+.tit{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0 10px 0 12px;
+}
+.desc{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.foter{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+}
+.price{
+    width: 100px;
+    height: 30px;
+    background-color: var(--gold);
+    color: var(--white) !important;
+    text-align: center;
+    font-size: 18px;  
+    border-radius: 10px;
+    margin-bottom: 15px; 
+    padding: 0;
+}
+.but{
+    width: 100px;
+    height: 30px;
+    background-color: var(--gold) !important;
+    color: var(--white) !important;
+    text-align: center;
+    font-size: 18px; 
+    border-radius: 10px !important;
+    border: solid var(--gold) !important;
+    margin-bottom: 15px !important;
+    box-sizing: border-box;
+    padding: 0;
+    transition: all 2.1s !important;
+}
+
+.but:hover{
+    background-color: var(--white) !important;
+    color: var(--gold) !important;
+}
+
+@media screen and (min-width:1750px) and (max-width:3000px){
+    .parent{ 
+     gap: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    }
+    .par{
+    width: 360px;
+}
+}
